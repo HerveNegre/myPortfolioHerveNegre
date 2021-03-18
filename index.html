@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Hervé NEGRE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+    <!--Bouton ouverture/fermeture SideBar-->
+    <div class="btn-menu">
+        <div class="cont-line">
+            <div class="line-unique"></div>
+        </div>
+    </div>
+
+    <!--SideBar-->
+    <nav class="sidebar">
+        <div class="blocs-menu">
+            <div class="portrait">
+                <img src="src/photo.jpg" alt="portrait cercle" class="logo-cercle">
+            </div>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#home">
+                    Accueil
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#presentation">
+                    Présentation
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#portfolio">
+                    Portfolio
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#competences">
+                    Compétences
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#experiences">
+                    Experiences
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#contact">
+                    Contact
+                </a>
+            </span>
+        </div>
+    </nav>
+
+    <!--Home-->
+    <section class="home" id="home">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p class="txt-animation"></p>
+        <a href="#portfolio" class="btn-home btn-home1">Portfolio</a>
+        <a href="#experiences" class="btn-home btn-home2">Experiences</a>
+
+        <div class="medias">
+            <a href="https://github.com" target="_blank">
+                <div class="media media1">
+                    <img src="src/github.svg" alt="github icone" class="icone-medias">
+                </div>
+            </a>
+            <a href="https://linkedin.com/in/hervé-negre/" target="_blank">
+                <div class="media media2">
+                    <img src="src/linkedin.png" alt="linkedin icone" class="icone-medias">
+                </div>
+            </a>
+        </div>
+
+        <a href="#presentation">
+            <div class="btn-rond">
+               <img src="src/arrowDown.svg" alt="fleche bas" class="logo-btn-flecheBas"> 
+            </div>
+        </a>
+    </section>
+
+    <!-- Presentation-->
+    <section class="presentation" id="presentation">
+        <h2 class="titre-presentation">Présentation</h2>
+        <div class="container-presentation">
+            <div class="fond-forme"></div>
+            <div class="pres-gauche">
+                <h3>Qui suis-je ?</h3>
+                <hr>
+                <p>Je suis un jeune diplomé du titre professionnel de "<strong>Concepteur & Dévellopeur Web & Mobile</strong>" obtenu chez Epitech à Lyon.</p>
+                <br/>
+                <p>
+                    Véritable passionné de code, je conçois et réalise des sites web du cahier des charges à la mise en ligne avec toujours le souci du détail et d'innovation pour répondre au mieux aux besoins.
+                    Je développe aussi en React-Native, ce qui me permet de développer des applications mobiles.
+                </p>
+            </div>
+            <div class="pres-droite">
+                <ul class="liste-presentation">
+                    <li class="item-liste i1">
+                        <span class="chiffre-style">1/</span>
+                        <p class="txt-liste">Dévellopeur Front-End</p>
+                    </li>
+                    <li class="item-liste i2">
+                        <span class="chiffre-style">2/</span>
+                        <p class="txt-liste">Dévellopeur Back-End</p>
+                    </li>
+                    <li class="item-liste i3">
+                        <span class="chiffre-style">3/</span>
+                        <p class="txt-liste">Développeur Mobile</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!--Portfolio-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="titre-portfolio">Mes Projets</h2>
+        <div class="container-portfolio">
+            <div class="item vague1">
+                <div class="container-img-portfolio">
+                    <img src="src/lpfdp.png" alt="image portfolio">
+                </div>
+                <h3>Le plus fort des papa</h3>
+                <p>
+                    Un projet Laravel réalisé durant un sprint de 2 semaines lors de ma formation. 
+                    Basé sur des conseils et outils pour aider les jeunes papas.
+                </p>
+                <a href="http://www.benlebegue.com/lpfdp/" class="btn-projets" target="_blank">Apercu</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Compétences-->
+    <section class="competences" id="competences">
+        <h2 class="titre-competences">Mes compétences</h2>
+        <div class="grille-skill">
+            <div class="range-container">
+                <p class="label-skill">React</p>
+                <p class="number-skill">90%</p>
+                <div class="barre-skill b1"></div>
+                <div class="barre-grises"></div>
+            </div>
+            <div class="range-container">
+                <p class="label-skill">NextJs</p>
+                <p class="number-skill">80%</p>
+                <div class="barre-skill b2"></div>
+                <div class="barre-grises"></div>
+            </div>
+            <div class="range-container">
+                <p class="label-skill">React-Native</p>
+                <p class="number-skill">75%</p>
+                <div class="barre-skill b3"></div>
+                <div class="barre-grises"></div>
+            </div>
+
+            <div class="range-container">
+                <p class="label-skill">Laravel</p>
+                <p class="number-skill">80%</p>
+                <div class="barre-skill b4"></div>
+                <div class="barre-grises"></div>
+            </div>
+            <div class="range-container">
+                <p class="label-skill">Symfony</p>
+                <p class="number-skill">80%</p>
+                <div class="barre-skill b5"></div>
+                <div class="barre-grises"></div>
+            </div>
+            <div class="range-container">
+                <p class="label-skill">NodeJS</p>
+                <p class="number-skill">70%</p>
+                <div class="barre-skill b6"></div>
+                <div class="barre-grises"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Experiences-->
+    <section class="travail-experiences" id="experiences">
+        <h2 class="titre-experiences">Mes Experiences</h2>
+        <div class="container-experiences">
+            <div class="barre-verticale">
+                <div class="boule-icone">
+                    <a href="https://www.epitech.eu/" target="_blank">
+                        <img src="src/epitech.png" alt="logo epitech">
+                    </a>
+                </div>
+                <div class="boule-icone">
+                    <a href="https://www.marietton.com/" target="_blank">
+                        <img src="src/marietton.png" alt="logo marietton">
+                    </a>
+                </div>
+                <div class="boule-icone">
+                    <a href="https://www.carrefour.fr/enseignes/market" target="_blank">
+                        <img src="src/carrefourMarket.png" alt="logo carrefour" class="carrouf">
+                    </a>
+                </div>
+            </div>
+            <div class="flex-container-bloc-experiences">
+                <div class="bloc bloc1">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Epitech, 2020</p>
+                        <p class="txt-section">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta in quas fuga libero perferendis voluptatibus temporibus eos, accusamus nemo et.
+                        </p>
+                    </div>
+                </div>
+                <div class="bloc bloc2">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Auto-école Marietton, 2015 - 2020</p>
+                        <p class="txt-section">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta in quas fuga libero perferendis voluptatibus temporibus eos, accusamus nemo et.
+                        </p>
+                    </div>
+                </div>
+                <div class="bloc bloc3">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Carrefour Market, 2010 - 2015</p>
+                        <p class="txt-section">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta in quas fuga libero perferendis voluptatibus temporibus eos, accusamus nemo et.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section class="contact" id="contact">
+        <div class="container-form">
+            <h2>Contact</h2>
+            <form action="" class="form-bloc">
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" required maxlength="16" id="prenom">
+                </div>
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" required maxlength="16" id="nom">
+                </div>
+                <div class="form-group">
+                    <label for="enseigne">Enseigne</label>
+                    <input type="text" maxlength="16" id="enseigne">
+                </div>
+                <div class="form-group">
+                    <textarea id="txt" required placeholder="Votre message"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Envoyer" class="button-submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        Portfolio Herve Negre &copy;
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
