@@ -41,6 +41,17 @@ body {
     text-decoration: none;
     color: #f1f1f1;
 }
+.blocs-menu span p {
+    margin-top: 45px;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.email {
+    margin-top: 10px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #f1f1f1;
+}
 .blocs-menu span::after {
     content: "";
     display: block;
