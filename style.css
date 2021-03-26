@@ -830,6 +830,7 @@ h1 {
         width: 260px;
     }
 }
+
 /*=================================================*/
 
 /*================Experiences======================*/
@@ -1153,7 +1154,13 @@ h1 {
 @media screen and (max-width: 632px) {
     
     .bloc3 {
-        margin-top: 320px;
+        margin-top: 340px;
+    }
+}
+@media screen and (max-width: 605px) {
+    
+    .bloc3 {
+        margin-top: 310px;
     }
 }
 @media screen and (max-width: 597px) {
@@ -1165,12 +1172,42 @@ h1 {
         margin-top: 325px;
     }
 }
-@media screen and (max-width: 581px) {
+@media screen and (max-width: 591px) {
+    
     .bloc2 {
-        margin-top: 130px;
+        margin-top: 170px;
     }
     .bloc3 {
-        margin-top: 300px;
+        margin-top: 345px;
+    }
+}
+@media screen and (max-width: 581px) {
+    .bloc2 {
+        margin-top: 150px;
+    }
+    .bloc3 {
+        margin-top: 350px;
+    }
+}
+@media screen and (max-width: 566px) {
+    .bloc2 {
+        margin-top: 150px;
+    }
+    .bloc3 {
+        margin-top: 290px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .bloc2 {
+        margin-top: 140px;
+    }
+    .bloc3 {
+        margin-top: 280px;
+    }
+}
+@media screen and (max-width: 539px) {
+    .bloc3 {
+        margin-top: 260px;
     }
 }
 @media screen and (max-width: 535px) {
@@ -1214,6 +1251,22 @@ h1 {
         margin-top: 310px;
     }
 }
+@media screen and (max-width: 529px) {
+    .bloc2 {
+        margin-top: 170px;
+    }
+    .bloc3 {
+        margin-top: 360px;
+    }
+}
+@media screen and (max-width: 527px) {
+    .bloc2 {
+        margin-top: 170px;
+    }
+    .bloc3 {
+        margin-top: 340px;
+    }
+}
 @media screen and (max-width: 524px) {
     .bloc2 {
         margin-top: 120px;
@@ -1244,6 +1297,17 @@ h1 {
         margin-top: 300px;
     }
 }
+@media screen and (max-width: 491px) {
+    .barre-verticale {
+        height: 1700px;
+    }
+    .bloc2 {
+        margin-top: 190px;
+    }
+    .bloc3 {
+        margin-top: 420px;
+    }
+}
 @media screen and (max-width: 489px) {
     .barre-verticale {
         height: 1700px;
@@ -1255,6 +1319,16 @@ h1 {
         margin-top: 400px;
     }
 }
+@media screen and (max-width: 483px) {
+
+    .bloc2 {
+        margin-top: 190px;
+    }
+    .bloc3 {
+        margin-top: 420px;
+    }
+}
+
 @media screen and (max-width: 455px) {
     .barre-verticale {
         height: 1800px;
@@ -1339,6 +1413,14 @@ h1 {
         margin-top: 330px;
     }
 }
+@media screen and (max-width: 414px) {
+    .bloc2 {
+        margin-top: 100px;
+    }
+    .bloc3 {
+        margin-top: 330px;
+    }
+}
 @media screen and (max-width: 407px) {
     .barre-verticale {
         height: 1650px;
@@ -1409,6 +1491,19 @@ h1 {
         margin-top: 400px;
     }
 }
+@media screen and (max-width: 375px) {
+    .bloc2 {
+        margin-top: 200px;
+    }
+    .bloc3 {
+        margin-top: 420px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .bloc3 {
+        margin-top: 430px;
+    }
+}
 @media screen and (max-width: 352px) {
     .bloc2 {
         margin-top: 140px;
@@ -1446,6 +1541,15 @@ h1 {
         margin-top: 410px;
     }
 }
+@media screen and (max-width: 320px) {
+    
+    .bloc2 {
+        margin-top: 130px;
+    }
+    .bloc3 {
+        margin-top: 430px;
+    }
+}
 @media screen and (max-width: 314px) {
     
     .bloc3 {
@@ -1463,6 +1567,41 @@ h1 {
         margin-top: 410px;
     }
 }
+@media screen and (max-width: 291px) {
+    .barre-verticale {
+        height: 2250px;
+    }
+    .bloc2 {
+        margin-top: 160px;
+    }
+    .bloc3 {
+        margin-top: 490px;
+    }
+}
+@media screen and (max-width: 289px) {
+    .bloc2 {
+        margin-top: 150px;
+    }
+    .bloc3 {
+        margin-top: 480px;
+    }
+}
+@media screen and (max-width: 287px) {
+    .bloc2 {
+        margin-top: 100px;
+    }
+    .bloc3 {
+        margin-top: 310px;
+    }
+}
+@media screen and (max-width: 285px) {
+    .bloc2 {
+        margin-top: 100px;
+    }
+    .bloc3 {
+        margin-top: 310px;
+    }
+}
 @media screen and (max-width: 280px) {
     .barre-verticale {
         height: 2250px;
@@ -1471,10 +1610,85 @@ h1 {
         margin-top: 100px;
     }
     .bloc3 {
-        margin-top: 470px;
+        margin-top: 500px;
     }
     .travail-experiences {
         height: 3000px;
+    }
+}
+@media screen and (max-width: 278px) {
+    .barre-verticale {
+        height: 2450px;
+    }
+    .bloc2 {
+        margin-top: 150px;
+    }
+    .bloc3 {
+        margin-top: 570px;
+    }
+    .travail-experiences {
+        height: 3000px;
+    }
+}
+@media screen and (max-width: 271px) {
+    .barre-verticale {
+        height: 2450px;
+    }
+    .bloc2 {
+        margin-top: 150px;
+    }
+    .bloc3 {
+        margin-top: 550px;
+    }
+    .travail-experiences {
+        height: 3000px;
+    }
+}
+@media screen and (max-width: 260px) {
+    .barre-verticale {
+        height: 2450px;
+    }
+    .bloc2 {
+        margin-top: 130px;
+    }
+    .bloc3 {
+        margin-top: 530px;
+    }
+    .travail-experiences {
+        height: 3000px;
+    }
+}
+@media screen and (max-width: 251px) {
+    .titre-experiences {
+        font-size: 40px;
+    }
+    .barre-verticale {
+        height: 2450px;
+    }
+    .barre-skill {
+        height: 15px;
+        left: 0;
+        bottom: 0;
+        width: 90px;
+    }
+    .barre-grises {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        bottom: 0;
+        width: 190px;
+        height: 15px;
+        background: rgb(216, 216, 216);
+        border-radius: 6px;
+    }
+    .bloc2 {
+        margin-top: 100px;
+    }
+    .bloc3 {
+        margin-top: 490px;
+    }
+    .travail-experiences {
+        height: 3500px;
     }
 }
 
