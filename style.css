@@ -754,6 +754,9 @@ h1 {
 .label-skill {
     font-size: 30px;
 }
+.number-skill {
+    margin-bottom: 10px;
+}
 /*=================================================*/
 
 /*================Médias Compétences======================*/
@@ -1820,7 +1823,8 @@ textarea:focus {
 footer {
     width: 100%;
     text-align: center;
-    padding-left: 300px;
+    display: flex;
+    justify-content: center;
     padding-top: 10px;
 }
 
