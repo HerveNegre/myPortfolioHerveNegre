@@ -634,6 +634,10 @@ h1 {
     transform: translateX(400px);
 }
 
+.mountain {
+    margin-top: 30px;
+}
+
 /*=================================================*/
 
 /*================Medias Portfolio=================*/
