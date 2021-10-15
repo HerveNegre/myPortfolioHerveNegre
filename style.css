@@ -586,6 +586,7 @@ h1 {
 }
 .item:hover {
     transform: translateY(-20px);
+    cursor: pointer;
 }
 .container-img-portfolio {
     width: 100%;
